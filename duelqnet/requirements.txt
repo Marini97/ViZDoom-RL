@@ -1,0 +1,6 @@
+vizdoom
+torch
+torchsummary
+scikit-learn
+scikit-image
+tqdm

@@ -1,0 +1,49 @@
+{
+    "loss": [
+        {
+            "min": 0.0,
+            "max": 195.47305297851562,
+            "mean": 34.074485778808594,
+            "std": 23.420713424682617
+        }
+    ],
+    "train_scores": [
+        {
+            "min": -19.0,
+            "max": 95.0,
+            "mean": 83.3822021484375,
+            "std": 16.299280166625977
+        }
+    ],
+    "test_scores": [
+        {
+            "min": 57.0,
+            "max": 57.0,
+            "mean": 57.0,
+            "std": 0.0
+        }
+    ],
+    "time": [
+        3.58835164308548
+    ],
+    "epochs": 1,
+    "info": {
+        "description": "input RGB",
+        "resolution": [
+            120,
+            160
+        ],
+        "frame_repeat": 12,
+        "learning_rate": 0.00025,
+        "discount_factor": 0.99,
+        "train_epochs": 1,
+        "learning_steps_per_epoch": 1000,
+        "replay_memory_size": 10000,
+        "batch_size": 64,
+        "test_episodes_per_epoch": 1,
+        "net_descritpion": "None",
+        "net_parameters:": 0,
+        "dueling Double DQN": true,
+        "net_parameters": 30715593
+    }
+}

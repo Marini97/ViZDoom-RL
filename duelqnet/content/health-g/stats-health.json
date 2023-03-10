@@ -1,0 +1,49 @@
+{
+    "loss": [
+        {
+            "min": 0.0,
+            "max": 30976.88671875,
+            "mean": 4520.2607421875,
+            "std": 7183.17236328125
+        }
+    ],
+    "train_scores": [
+        {
+            "min": 156.0,
+            "max": 316.0,
+            "mean": 209.33334350585938,
+            "std": 92.37603759765625
+        }
+    ],
+    "test_scores": [
+        {
+            "min": 316.0,
+            "max": 316.0,
+            "mean": 316.0,
+            "std": 0.0
+        }
+    ],
+    "time": [
+        0.2915063659350077
+    ],
+    "epochs": 1,
+    "info": {
+        "description": "health gathering supreme con reward shaping (no transfer learning)",
+        "resolution": [
+            120,
+            160
+        ],
+        "frame_repeat": 12,
+        "learning_rate": 0.00025,
+        "discount_factor": 0.99,
+        "train_epochs": 1,
+        "learning_steps_per_epoch": 100,
+        "replay_memory_size": 10000,
+        "batch_size": 64,
+        "test_episodes_per_epoch": 1,
+        "net_descritpion": "None",
+        "net_parameters:": 0,
+        "dueling Double DQN": true,
+        "net_parameters": 30711497
+    }
+}
