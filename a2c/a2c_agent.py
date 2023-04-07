@@ -128,9 +128,6 @@ class A2CAgent():
         self.actor_optimizer.step()
         self.critic_optimizer.step()
     
-        
-
-
     def reset_memory(self):
         del self.log_probs[:]
         del self.rewards[:]
