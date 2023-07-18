@@ -115,8 +115,11 @@ class A2CAgent():
         values    = torch.cat(self.values)
 
         advantage = returns - values
-
-        actor_loss  = -(log_probs * advantage.detach()).mean()
+       #LOSS LOG VEROSOMIGLIANZA
+        selected_log_probs = torch.gather(log_probs, dim=1, index=actions.unsqueeze(1)) 
+        actor_loss = -selected_log_probs.mean()
+       # actor_loss  = -(log_probs * advantage.detach()).mean()
+       #L2 LOSS
         critic_loss = advantage.pow(2).mean()
 
         loss = actor_loss + 0.5 * critic_loss - 0.001 * sum(self.entropies)
